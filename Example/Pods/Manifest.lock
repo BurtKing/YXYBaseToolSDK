@@ -1,0 +1,16 @@
+PODS:
+  - YXYBaseToolSDK (0.1.0)
+
+DEPENDENCIES:
+  - YXYBaseToolSDK (from `../`)
+
+EXTERNAL SOURCES:
+  YXYBaseToolSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YXYBaseToolSDK: e32c3bd660d32d45f8b4957a6b696f7a3fd079cc
+
+PODFILE CHECKSUM: 5f0c53f66714027312ddd73ac84fae02db8fb093
+
+COCOAPODS: 1.11.2

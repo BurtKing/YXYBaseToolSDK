@@ -1,0 +1,6 @@
+framework module Pods_YXYBaseToolSDK_Tests {
+  umbrella header "Pods-YXYBaseToolSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

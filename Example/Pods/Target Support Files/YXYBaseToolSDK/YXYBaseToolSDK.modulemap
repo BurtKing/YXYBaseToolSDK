@@ -1,0 +1,6 @@
+framework module YXYBaseToolSDK {
+  umbrella header "YXYBaseToolSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
