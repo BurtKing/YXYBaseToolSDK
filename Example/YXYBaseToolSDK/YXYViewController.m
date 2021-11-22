@@ -7,6 +7,7 @@
 //
 
 #import "YXYViewController.h"
+#import "YXYHeader.h"
 
 @interface YXYViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    YBAlertShow(@"123", @"确定");
 }
 
 - (void)didReceiveMemoryWarning

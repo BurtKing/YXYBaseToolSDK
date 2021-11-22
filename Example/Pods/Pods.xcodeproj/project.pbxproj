@@ -7,27 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DCF7CA514DC8816ABBB423D564AC738 /* YXYBaseToolSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068E4CF09C4275354E467011F9237C3 /* YXYBaseToolSDK-dummy.m */; };
+		05CB396044B80E8E35DF034DAB6492CA /* YXYHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5D3B8B5F9006B89C96202E310AAF40 /* YXYHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A75BF65A4F15C21B6D57ECE17273DF4 /* UIButton+EnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0E1790C83D5A6123B3504BA19AD416 /* UIButton+EnlargeTouchArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		153BC719D908D498257253681FCEDFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		21C3E503D1CED8CC5879CDC9C826D684 /* YXYBaseToolSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C344D12E66E50B5D01A70945604E44D /* YXYBaseToolSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42416837CCFD7008A78EF4ACF1F6C66E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7DB259984592F8360DB50DA1F42B5D /* ReplaceMe.m */; };
+		16240C4AA9B06559A940FC72DFA63BED /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE4F2B0D79CF18B4AAAF70BE412D80 /* UIColor+Hex.m */; };
+		1BE5D67F481D2D613956B752264EA3C2 /* BBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB131C22CCA1CB3C5EC121AFD6BC8D7 /* BBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE4FA59006BF7A420097E13AC67D504 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE43B3A838784D75EDA83AA88E788 /* ReplaceMe.m */; };
+		3EFE4D8E7DA70C57F3BC6605CB2FA2D7 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109015DA8CE12E7D8F2E32E43D055A9 /* UITextView+Placeholder.m */; };
+		3FC618943D1CD2E078AE2CA53EB50BA6 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D82F5FFC7A1FE9F49093A5C153D2699 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42E0FFA6A4CA89B5DAE078CF1660C2DD /* Pods-YXYBaseToolSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 146A0B955C593C621678662501C6CB97 /* Pods-YXYBaseToolSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA42DF69600FF6A5EDC6A17DB7450A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		51F973B66574619FDB4903992819A7E3 /* Pods-YXYBaseToolSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE691B2034F335C18B610069CD7D90E0 /* Pods-YXYBaseToolSDK_Example-dummy.m */; };
+		6C9D9FDE4C7AD6B923E664D2BA296564 /* UIImage+PicRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C535D9790DF8418FC9CD7C252D231C2D /* UIImage+PicRotation.m */; };
+		7868AE6A588D537A1FF2CECE88E6791E /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F19D6840A649B7A05A517199A559DCED /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804AB52EA2CC5EAE5A117D3A31B886F4 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EB85697A53D649148CDF97ABC8F72C70 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D311CD4ACF191510818F0267C1AF950 /* UIImage+PicRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 623DF051E2DCEAADC5D97AC360775036 /* UIImage+PicRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90AC8E5E2DE3707EE348ECD0AF7BF755 /* Pods-YXYBaseToolSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB935276FE9D9FC1A86EFE2E7D5FC8 /* Pods-YXYBaseToolSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947432A642E1F9F7416FEFEF263BD1D3 /* YXYBaseToolSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B160C09783067FC961A74BF161671EF3 /* YXYBaseToolSDK-dummy.m */; };
 		971E5AE47422F53FE9404A4BCE593A25 /* Pods-YXYBaseToolSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F932C46796950C312506570A21FAF /* Pods-YXYBaseToolSDK_Tests-dummy.m */; };
+		A2B344AD5A89C578A78634EDD974212A /* UIBarButtonItem+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 346A168AA72145E8FD8E8EFFDED39863 /* UIBarButtonItem+Extention.m */; };
 		B1F2CE29AB4D68CDCCFB33F33203B8C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CBD34B5285A3E36784E5C2E8060E2403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B99EBE158C15103E903A6F6551439C6A /* NSMutableDictionary+HandleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 333F73603616B1521D73F654C144A157 /* NSMutableDictionary+HandleException.m */; };
+		BF7FE9B50A4875C790212FBDE7ADE590 /* YXYBaseToolSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B94A53C91E3C2C85738FCC785FD2B819 /* YXYBaseToolSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4EF82308D420A9E02E9F3BD097206FB /* BBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22D9C3B5B02BAA821CDFE06BC8550E /* BBUtils.m */; };
+		D8C9CC191FE7D2F34D0C732F93555AA4 /* UIBarButtonItem+Extention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA8C1B91DB2281D0639248054672CF9 /* UIBarButtonItem+Extention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D6A7D0E9B95985300DEB29ADB7E82A /* NSMutableDictionary+HandleException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7E3710A76AA90CD78F5CC75BD789D0 /* NSMutableDictionary+HandleException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78C63A4A903E334FB5D6DE2F228190C /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 42794ABA0D61B4C74FBF196A6BB89F7C /* UIButton+EnlargeTouchArea.m */; };
+		EB544DBD2454B1C1A98BBEEBAF690D63 /* NSString+LY.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB820ECC5504FAC2202ABDA8E8EDD3B /* NSString+LY.m */; };
+		F8EAB79541F6F024EA4B4200DA756794 /* NSString+LY.h in Headers */ = {isa = PBXBuildFile; fileRef = D00FE70B6C203CBB5285EEF69F8E5CA4 /* NSString+LY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4A70CAED03F9FB4F84395A4A06600D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE922EBDBF23B0280E85BC7D5AB0E260 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D468C3A0550358CFE5FD860E743E1A6 /* PBXContainerItemProxy */ = {
+		81191BC207D347B10A6E9FF8C3228B7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88A28BA9B92B5B6BEEACBBCC0A6F824D;
 			remoteInfo = "Pods-YXYBaseToolSDK_Example";
 		};
-		E9B7B8B28DBEAA25AD831DF8117AE69A /* PBXContainerItemProxy */ = {
+		B29D02E3EBB7DEF0CB6CCDDE353D88FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,40 +58,67 @@
 /* Begin PBXFileReference section */
 		02D6AD3A0E25362567AE8933427F92A0 /* Pods-YXYBaseToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXYBaseToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10E7CD1D35C5398AF3955F5CF24EEA6E /* Pods-YXYBaseToolSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YXYBaseToolSDK_Tests"; path = Pods_YXYBaseToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1189644A7579B04A652ED050738BE663 /* YXYBaseToolSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YXYBaseToolSDK.modulemap; sourceTree = "<group>"; };
 		146A0B955C593C621678662501C6CB97 /* Pods-YXYBaseToolSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXYBaseToolSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		15F89D8A0D4C81F605835A776D93D224 /* YXYBaseToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YXYBaseToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1935B2C993D562325B56B61F5D590F02 /* YXYBaseToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXYBaseToolSDK.release.xcconfig; sourceTree = "<group>"; };
+		1B0E1790C83D5A6123B3504BA19AD416 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+EnlargeTouchArea.h"; path = "YXYBaseToolSDK/Classes/UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
 		1D218298F23C8555AED371DA977F4735 /* Pods-YXYBaseToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXYBaseToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F7DB259984592F8360DB50DA1F42B5D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YXYBaseToolSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		3AA6B8B21DF447AB97097D3CB60BF971 /* YXYBaseToolSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXYBaseToolSDK-prefix.pch"; sourceTree = "<group>"; };
+		2EB131C22CCA1CB3C5EC121AFD6BC8D7 /* BBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBUtils.h; path = YXYBaseToolSDK/Classes/BBUtils.h; sourceTree = "<group>"; };
+		3109015DA8CE12E7D8F2E32E43D055A9 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "YXYBaseToolSDK/Classes/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		333F73603616B1521D73F654C144A157 /* NSMutableDictionary+HandleException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+HandleException.m"; path = "YXYBaseToolSDK/Classes/NSMutableDictionary+HandleException.m"; sourceTree = "<group>"; };
+		346A168AA72145E8FD8E8EFFDED39863 /* UIBarButtonItem+Extention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Extention.m"; path = "YXYBaseToolSDK/Classes/UIBarButtonItem+Extention.m"; sourceTree = "<group>"; };
+		3CA8C1B91DB2281D0639248054672CF9 /* UIBarButtonItem+Extention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Extention.h"; path = "YXYBaseToolSDK/Classes/UIBarButtonItem+Extention.h"; sourceTree = "<group>"; };
+		3D6C35ECD1957855624D552B4CA88122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		42794ABA0D61B4C74FBF196A6BB89F7C /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+EnlargeTouchArea.m"; path = "YXYBaseToolSDK/Classes/UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
 		491046470CD295EE853FFEF9DC2283B7 /* Pods-YXYBaseToolSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YXYBaseToolSDK_Example.modulemap"; sourceTree = "<group>"; };
-		4AA7A550D1C461D1881E763D069DA6A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		49729E7CC8F88922F86629D9B923E56B /* YXYBaseToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YXYBaseToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DD58B71CCD07C9B228D7D7E01356425 /* Pods-YXYBaseToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXYBaseToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C8CB389B6B9CFEB534E5E107A72F08C /* Pods-YXYBaseToolSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXYBaseToolSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		6068E4CF09C4275354E467011F9237C3 /* YXYBaseToolSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXYBaseToolSDK-dummy.m"; sourceTree = "<group>"; };
+		5F5D3B8B5F9006B89C96202E310AAF40 /* YXYHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXYHeader.h; path = YXYBaseToolSDK/Classes/YXYHeader.h; sourceTree = "<group>"; };
+		623DF051E2DCEAADC5D97AC360775036 /* UIImage+PicRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PicRotation.h"; path = "YXYBaseToolSDK/Classes/UIImage+PicRotation.h"; sourceTree = "<group>"; };
 		6518C50B0B796B7D779294408B5480AB /* Pods-YXYBaseToolSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXYBaseToolSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6C811CE4F6431F94C5021B888E94E590 /* Pods-YXYBaseToolSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YXYBaseToolSDK_Example"; path = Pods_YXYBaseToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70474379B6038FE44BEDD39933A7F844 /* YXYBaseToolSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YXYBaseToolSDK-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76B080CB226F70E611411421C9F8D1E9 /* YXYBaseToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXYBaseToolSDK.debug.xcconfig; sourceTree = "<group>"; };
-		7C344D12E66E50B5D01A70945604E44D /* YXYBaseToolSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXYBaseToolSDK-umbrella.h"; sourceTree = "<group>"; };
-		8FE911EAE083108C1D83CDF458FC1F73 /* YXYBaseToolSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YXYBaseToolSDK-Info.plist"; sourceTree = "<group>"; };
+		8D82F5FFC7A1FE9F49093A5C153D2699 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "YXYBaseToolSDK/Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
 		9388787CD253B6871E2B63780C793C45 /* Pods-YXYBaseToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXYBaseToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AB820ECC5504FAC2202ABDA8E8EDD3B /* NSString+LY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LY.m"; path = "YXYBaseToolSDK/Classes/NSString+LY.m"; sourceTree = "<group>"; };
+		9C7E3710A76AA90CD78F5CC75BD789D0 /* NSMutableDictionary+HandleException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+HandleException.h"; path = "YXYBaseToolSDK/Classes/NSMutableDictionary+HandleException.h"; sourceTree = "<group>"; };
 		9D08447077DE737E0977A90009CDDF0F /* Pods-YXYBaseToolSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YXYBaseToolSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2AF6929DEC5310050D32B01DEA8013F /* Pods-YXYBaseToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXYBaseToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE691B2034F335C18B610069CD7D90E0 /* Pods-YXYBaseToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXYBaseToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		B60EB7CA9013E2779CC2A479EB24C365 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE922EBDBF23B0280E85BC7D5AB0E260 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "YXYBaseToolSDK/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		B160C09783067FC961A74BF161671EF3 /* YXYBaseToolSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXYBaseToolSDK-dummy.m"; sourceTree = "<group>"; };
+		B94A53C91E3C2C85738FCC785FD2B819 /* YXYBaseToolSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXYBaseToolSDK-umbrella.h"; sourceTree = "<group>"; };
+		BB5CE43B3A838784D75EDA83AA88E788 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YXYBaseToolSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BDBDCB64846EBCA88D4E7E19C9860548 /* Pods-YXYBaseToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXYBaseToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C06A9448719316CB9418E7636DBE98CC /* Pods-YXYBaseToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXYBaseToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C2AE6C51461BC413C420C1B2C86D3F95 /* YXYBaseToolSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXYBaseToolSDK-prefix.pch"; sourceTree = "<group>"; };
+		C535D9790DF8418FC9CD7C252D231C2D /* UIImage+PicRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PicRotation.m"; path = "YXYBaseToolSDK/Classes/UIImage+PicRotation.m"; sourceTree = "<group>"; };
 		CE055EA79B5F2DEA42ED507E23FCCF9E /* YXYBaseToolSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YXYBaseToolSDK; path = YXYBaseToolSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00FE70B6C203CBB5285EEF69F8E5CA4 /* NSString+LY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LY.h"; path = "YXYBaseToolSDK/Classes/NSString+LY.h"; sourceTree = "<group>"; };
 		D2DB935276FE9D9FC1A86EFE2E7D5FC8 /* Pods-YXYBaseToolSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXYBaseToolSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D95D69DCC91CD2DD675597CE0EE02F53 /* Pods-YXYBaseToolSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXYBaseToolSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		DB55BD6EAECC06E0BBEF0D6C90281C06 /* Pods-YXYBaseToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXYBaseToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E1603A44F6B80412FDEDBAD565E147F0 /* YXYBaseToolSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YXYBaseToolSDK.modulemap; sourceTree = "<group>"; };
+		E6F9D6014ACB5BDC7362EC3DAB912F9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E79F932C46796950C312506570A21FAF /* Pods-YXYBaseToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXYBaseToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		EA63A99D12B0979FDE22B90F1692B56E /* YXYBaseToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXYBaseToolSDK.debug.xcconfig; sourceTree = "<group>"; };
+		EB85697A53D649148CDF97ABC8F72C70 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "YXYBaseToolSDK/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		EEAE4F2B0D79CF18B4AAAF70BE412D80 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "YXYBaseToolSDK/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		F19D6840A649B7A05A517199A559DCED /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "YXYBaseToolSDK/Classes/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		FD22D9C3B5B02BAA821CDFE06BC8550E /* BBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBUtils.m; path = YXYBaseToolSDK/Classes/BBUtils.m; sourceTree = "<group>"; };
+		FE4105CD6FFF9DF59A788D3EF7B618A6 /* YXYBaseToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXYBaseToolSDK.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A08698F4E357B5A016A47215C1C5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA42DF69600FF6A5EDC6A17DB7450A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A901C81ADD4C92041811A843FE0682A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,25 +135,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0B8D83C52AAC7C9C2699269363ABD6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBD34B5285A3E36784E5C2E8060E2403 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BE7ACDA543D1CF7B44E7FA119326CAD /* Pod */ = {
+		171B8576BC3492F8639117954664D862 /* YXYBaseToolSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4AA7A550D1C461D1881E763D069DA6A1 /* LICENSE */,
-				B60EB7CA9013E2779CC2A479EB24C365 /* README.md */,
-				15F89D8A0D4C81F605835A776D93D224 /* YXYBaseToolSDK.podspec */,
+				2EB131C22CCA1CB3C5EC121AFD6BC8D7 /* BBUtils.h */,
+				FD22D9C3B5B02BAA821CDFE06BC8550E /* BBUtils.m */,
+				9C7E3710A76AA90CD78F5CC75BD789D0 /* NSMutableDictionary+HandleException.h */,
+				333F73603616B1521D73F654C144A157 /* NSMutableDictionary+HandleException.m */,
+				D00FE70B6C203CBB5285EEF69F8E5CA4 /* NSString+LY.h */,
+				9AB820ECC5504FAC2202ABDA8E8EDD3B /* NSString+LY.m */,
+				BB5CE43B3A838784D75EDA83AA88E788 /* ReplaceMe.m */,
+				3CA8C1B91DB2281D0639248054672CF9 /* UIBarButtonItem+Extention.h */,
+				346A168AA72145E8FD8E8EFFDED39863 /* UIBarButtonItem+Extention.m */,
+				1B0E1790C83D5A6123B3504BA19AD416 /* UIButton+EnlargeTouchArea.h */,
+				42794ABA0D61B4C74FBF196A6BB89F7C /* UIButton+EnlargeTouchArea.m */,
+				8D82F5FFC7A1FE9F49093A5C153D2699 /* UIColor+Hex.h */,
+				EEAE4F2B0D79CF18B4AAAF70BE412D80 /* UIColor+Hex.m */,
+				623DF051E2DCEAADC5D97AC360775036 /* UIImage+PicRotation.h */,
+				C535D9790DF8418FC9CD7C252D231C2D /* UIImage+PicRotation.m */,
+				F19D6840A649B7A05A517199A559DCED /* UITextView+Placeholder.h */,
+				3109015DA8CE12E7D8F2E32E43D055A9 /* UITextView+Placeholder.m */,
+				EB85697A53D649148CDF97ABC8F72C70 /* UIView+Extension.h */,
+				AE922EBDBF23B0280E85BC7D5AB0E260 /* UIView+Extension.m */,
+				5F5D3B8B5F9006B89C96202E310AAF40 /* YXYHeader.h */,
+				517F22E23B43DB3B92B30DBDEC43413E /* Pod */,
+				840AC4ADADC9998FF3EA3E39499BF9B6 /* Support Files */,
 			);
-			name = Pod;
+			name = YXYBaseToolSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1B5775C4946123E47FC2C08F0DBE2D96 /* Pods-YXYBaseToolSDK_Tests */ = {
@@ -135,12 +193,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5129B53CAA63493D476917AABD834ED4 /* Development Pods */ = {
+		517F22E23B43DB3B92B30DBDEC43413E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9E3D9076E78EA8EC27A51AB0D78ABEF9 /* YXYBaseToolSDK */,
+				3D6C35ECD1957855624D552B4CA88122 /* LICENSE */,
+				E6F9D6014ACB5BDC7362EC3DAB912F9C /* README.md */,
+				49729E7CC8F88922F86629D9B923E56B /* YXYBaseToolSDK.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -151,30 +211,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B4FD3FB9783D2018F7F4904F15F624B /* Support Files */ = {
+		840AC4ADADC9998FF3EA3E39499BF9B6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1189644A7579B04A652ED050738BE663 /* YXYBaseToolSDK.modulemap */,
-				6068E4CF09C4275354E467011F9237C3 /* YXYBaseToolSDK-dummy.m */,
-				8FE911EAE083108C1D83CDF458FC1F73 /* YXYBaseToolSDK-Info.plist */,
-				3AA6B8B21DF447AB97097D3CB60BF971 /* YXYBaseToolSDK-prefix.pch */,
-				7C344D12E66E50B5D01A70945604E44D /* YXYBaseToolSDK-umbrella.h */,
-				76B080CB226F70E611411421C9F8D1E9 /* YXYBaseToolSDK.debug.xcconfig */,
-				1935B2C993D562325B56B61F5D590F02 /* YXYBaseToolSDK.release.xcconfig */,
+				E1603A44F6B80412FDEDBAD565E147F0 /* YXYBaseToolSDK.modulemap */,
+				B160C09783067FC961A74BF161671EF3 /* YXYBaseToolSDK-dummy.m */,
+				70474379B6038FE44BEDD39933A7F844 /* YXYBaseToolSDK-Info.plist */,
+				C2AE6C51461BC413C420C1B2C86D3F95 /* YXYBaseToolSDK-prefix.pch */,
+				B94A53C91E3C2C85738FCC785FD2B819 /* YXYBaseToolSDK-umbrella.h */,
+				EA63A99D12B0979FDE22B90F1692B56E /* YXYBaseToolSDK.debug.xcconfig */,
+				FE4105CD6FFF9DF59A788D3EF7B618A6 /* YXYBaseToolSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YXYBaseToolSDK";
-			sourceTree = "<group>";
-		};
-		9E3D9076E78EA8EC27A51AB0D78ABEF9 /* YXYBaseToolSDK */ = {
-			isa = PBXGroup;
-			children = (
-				1F7DB259984592F8360DB50DA1F42B5D /* ReplaceMe.m */,
-				0BE7ACDA543D1CF7B44E7FA119326CAD /* Pod */,
-				5B4FD3FB9783D2018F7F4904F15F624B /* Support Files */,
-			);
-			name = YXYBaseToolSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BDB451CB74831D67F036EA9945C3B77F /* Products */ = {
@@ -191,7 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5129B53CAA63493D476917AABD834ED4 /* Development Pods */,
+				DA65ACA108C8004F332676B59E387048 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BDB451CB74831D67F036EA9945C3B77F /* Products */,
 				20A0D0965F9650023005406674E96F93 /* Targets Support Files */,
@@ -204,6 +253,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA65ACA108C8004F332676B59E387048 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				171B8576BC3492F8639117954664D862 /* YXYBaseToolSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FEE438FB6B0BE93F9991F161CCC9B60C /* Pods-YXYBaseToolSDK_Example */ = {
@@ -226,11 +283,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F3A7BDFD2F621F50934D428F1B8D76A /* Headers */ = {
+		1684C57002FC5FE97D86767565709800 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C3E503D1CED8CC5879CDC9C826D684 /* YXYBaseToolSDK-umbrella.h in Headers */,
+				1BE5D67F481D2D613956B752264EA3C2 /* BBUtils.h in Headers */,
+				E2D6A7D0E9B95985300DEB29ADB7E82A /* NSMutableDictionary+HandleException.h in Headers */,
+				F8EAB79541F6F024EA4B4200DA756794 /* NSString+LY.h in Headers */,
+				D8C9CC191FE7D2F34D0C732F93555AA4 /* UIBarButtonItem+Extention.h in Headers */,
+				0A75BF65A4F15C21B6D57ECE17273DF4 /* UIButton+EnlargeTouchArea.h in Headers */,
+				3FC618943D1CD2E078AE2CA53EB50BA6 /* UIColor+Hex.h in Headers */,
+				8D311CD4ACF191510818F0267C1AF950 /* UIImage+PicRotation.h in Headers */,
+				7868AE6A588D537A1FF2CECE88E6791E /* UITextView+Placeholder.h in Headers */,
+				804AB52EA2CC5EAE5A117D3A31B886F4 /* UIView+Extension.h in Headers */,
+				BF7FE9B50A4875C790212FBDE7ADE590 /* YXYBaseToolSDK-umbrella.h in Headers */,
+				05CB396044B80E8E35DF034DAB6492CA /* YXYHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +332,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				51D4C0C6160F9C7A4D98C5061F53E0E1 /* PBXTargetDependency */,
+				44B4D24695F05324C61153801E224FE3 /* PBXTargetDependency */,
 			);
 			name = "Pods-YXYBaseToolSDK_Tests";
 			productName = Pods_YXYBaseToolSDK_Tests;
@@ -284,7 +351,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FB242ADA3DA503569E277335683ED436 /* PBXTargetDependency */,
+				20F5364AAAC28A5FDFDE2C1DBC94AFA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-YXYBaseToolSDK_Example";
 			productName = Pods_YXYBaseToolSDK_Example;
@@ -293,12 +360,12 @@
 		};
 		D4A047E546BE358EB2D16FF65A20DB65 /* YXYBaseToolSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 952C61BBC922D8173425AB844E968999 /* Build configuration list for PBXNativeTarget "YXYBaseToolSDK" */;
+			buildConfigurationList = 1983B8633E8A9E74F426832085E4AD62 /* Build configuration list for PBXNativeTarget "YXYBaseToolSDK" */;
 			buildPhases = (
-				8F3A7BDFD2F621F50934D428F1B8D76A /* Headers */,
-				10BB858E4ED200D3140DC9A655BCD942 /* Sources */,
-				E0B8D83C52AAC7C9C2699269363ABD6D /* Frameworks */,
-				CFB59CDF94AA96D0FE4860BEE0F07172 /* Resources */,
+				1684C57002FC5FE97D86767565709800 /* Headers */,
+				F27642D1F17BB5EF0D57141E0127E1CC /* Sources */,
+				8A08698F4E357B5A016A47215C1C5368 /* Frameworks */,
+				55A0B36B58E8A9E685766E5322384B57 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +406,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6567977D037C2C7841A3570CF09AA7AD /* Resources */ = {
+		55A0B36B58E8A9E685766E5322384B57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFB59CDF94AA96D0FE4860BEE0F07172 /* Resources */ = {
+		6567977D037C2C7841A3570CF09AA7AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +430,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10BB858E4ED200D3140DC9A655BCD942 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42416837CCFD7008A78EF4ACF1F6C66E /* ReplaceMe.m in Sources */,
-				0DCF7CA514DC8816ABBB423D564AC738 /* YXYBaseToolSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E49FEAA4071C7D35850B514A9FEAEAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,27 +446,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F27642D1F17BB5EF0D57141E0127E1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF82308D420A9E02E9F3BD097206FB /* BBUtils.m in Sources */,
+				B99EBE158C15103E903A6F6551439C6A /* NSMutableDictionary+HandleException.m in Sources */,
+				EB544DBD2454B1C1A98BBEEBAF690D63 /* NSString+LY.m in Sources */,
+				3BE4FA59006BF7A420097E13AC67D504 /* ReplaceMe.m in Sources */,
+				A2B344AD5A89C578A78634EDD974212A /* UIBarButtonItem+Extention.m in Sources */,
+				E78C63A4A903E334FB5D6DE2F228190C /* UIButton+EnlargeTouchArea.m in Sources */,
+				16240C4AA9B06559A940FC72DFA63BED /* UIColor+Hex.m in Sources */,
+				6C9D9FDE4C7AD6B923E664D2BA296564 /* UIImage+PicRotation.m in Sources */,
+				3EFE4D8E7DA70C57F3BC6605CB2FA2D7 /* UITextView+Placeholder.m in Sources */,
+				FC4A70CAED03F9FB4F84395A4A06600D /* UIView+Extension.m in Sources */,
+				947432A642E1F9F7416FEFEF263BD1D3 /* YXYBaseToolSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51D4C0C6160F9C7A4D98C5061F53E0E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YXYBaseToolSDK_Example";
-			target = 88A28BA9B92B5B6BEEACBBCC0A6F824D /* Pods-YXYBaseToolSDK_Example */;
-			targetProxy = 4D468C3A0550358CFE5FD860E743E1A6 /* PBXContainerItemProxy */;
-		};
-		FB242ADA3DA503569E277335683ED436 /* PBXTargetDependency */ = {
+		20F5364AAAC28A5FDFDE2C1DBC94AFA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YXYBaseToolSDK;
 			target = D4A047E546BE358EB2D16FF65A20DB65 /* YXYBaseToolSDK */;
-			targetProxy = E9B7B8B28DBEAA25AD831DF8117AE69A /* PBXContainerItemProxy */;
+			targetProxy = B29D02E3EBB7DEF0CB6CCDDE353D88FB /* PBXContainerItemProxy */;
+		};
+		44B4D24695F05324C61153801E224FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YXYBaseToolSDK_Example";
+			target = 88A28BA9B92B5B6BEEACBBCC0A6F824D /* Pods-YXYBaseToolSDK_Example */;
+			targetProxy = 81191BC207D347B10A6E9FF8C3228B7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		217CE92F2511B51DF2C2992C98EB4910 /* Release */ = {
+		1F65C1B31DD12B7CD8C5A7EBF59C5A64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1935B2C993D562325B56B61F5D590F02 /* YXYBaseToolSDK.release.xcconfig */;
+			baseConfigurationReference = FE4105CD6FFF9DF59A788D3EF7B618A6 /* YXYBaseToolSDK.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -503,9 +579,9 @@
 			};
 			name = Debug;
 		};
-		2728B5FDE998D9ACB2E057DF4774A0DE /* Debug */ = {
+		3FBAEF5F5E6C15C0E467DC3F273BCA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76B080CB226F70E611411421C9F8D1E9 /* YXYBaseToolSDK.debug.xcconfig */;
+			baseConfigurationReference = EA63A99D12B0979FDE22B90F1692B56E /* YXYBaseToolSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -728,20 +804,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1983B8633E8A9E74F426832085E4AD62 /* Build configuration list for PBXNativeTarget "YXYBaseToolSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBAEF5F5E6C15C0E467DC3F273BCA7D /* Debug */,
+				1F65C1B31DD12B7CD8C5A7EBF59C5A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		952C61BBC922D8173425AB844E968999 /* Build configuration list for PBXNativeTarget "YXYBaseToolSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2728B5FDE998D9ACB2E057DF4774A0DE /* Debug */,
-				217CE92F2511B51DF2C2992C98EB4910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

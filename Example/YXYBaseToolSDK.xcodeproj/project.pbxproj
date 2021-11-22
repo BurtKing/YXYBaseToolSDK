@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0FF77C25DAA38AB0C042169A /* Pods_YXYBaseToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXYBaseToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		302640BEDC96A73B61960E08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		302640BEDC96A73B61960E08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		336BD85B2C92ACA697950D24 /* Pods-YXYBaseToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYBaseToolSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YXYBaseToolSDK_Example/Pods-YXYBaseToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		42543D4D85E10B88113C0E54 /* Pods_YXYBaseToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXYBaseToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YXYBaseToolSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYBaseToolSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		BBF96862F144E8D737CF8856 /* Pods-YXYBaseToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYBaseToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YXYBaseToolSDK_Tests/Pods-YXYBaseToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD823B75F0E44C53DBA5A81C /* Pods-YXYBaseToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYBaseToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-YXYBaseToolSDK_Tests/Pods-YXYBaseToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6197F0DBE954C6F0D76348B /* Pods-YXYBaseToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYBaseToolSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YXYBaseToolSDK_Example/Pods-YXYBaseToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7BA38AC62E28A5FCF395B06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FE8EE4B1C22DF6D2BD8A7669 /* YXYBaseToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YXYBaseToolSDK.podspec; path = ../YXYBaseToolSDK.podspec; sourceTree = "<group>"; };
+		F7BA38AC62E28A5FCF395B06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE8EE4B1C22DF6D2BD8A7669 /* YXYBaseToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXYBaseToolSDK.podspec; path = ../YXYBaseToolSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				BBF96862F144E8D737CF8856 /* Pods-YXYBaseToolSDK_Tests.debug.xcconfig */,
 				BD823B75F0E44C53DBA5A81C /* Pods-YXYBaseToolSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E1A9733178B4E89093DC1E84 /* [CP] Embed Pods Frameworks */,
+				E0D02CE2DE2D783B2E5271C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = amosYin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P4PA4729DF;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,7 +342,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E1A9733178B4E89093DC1E84 /* [CP] Embed Pods Frameworks */ = {
+		E0D02CE2DE2D783B2E5271C3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 336BD85B2C92ACA697950D24 /* Pods-YXYBaseToolSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4PA4729DF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXYBaseToolSDK/YXYBaseToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "YXYBaseToolSDK/YXYBaseToolSDK-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = C6197F0DBE954C6F0D76348B /* Pods-YXYBaseToolSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4PA4729DF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXYBaseToolSDK/YXYBaseToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "YXYBaseToolSDK/YXYBaseToolSDK-Info.plist";
