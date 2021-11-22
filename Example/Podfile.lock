@@ -1,5 +1,5 @@
 PODS:
-  - YXYBaseToolSDK (0.1.0)
+  - YXYBaseToolSDK (0.0.2)
 
 DEPENDENCIES:
   - YXYBaseToolSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YXYBaseToolSDK: e32c3bd660d32d45f8b4957a6b696f7a3fd079cc
+  YXYBaseToolSDK: 252f8878f630e224d27af7499b44f9dbe210c39a
 
 PODFILE CHECKSUM: 5f0c53f66714027312ddd73ac84fae02db8fb093
 
