@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor*)colorWithHex:(NSInteger)hexValue;
 
 + (UIColor*)randomColor;
-
++ (UIColor *) colorWithHexString: (NSString *) hexString;
++ (CGFloat) colorComponentFrom: (NSString *) string start: (NSUInteger) start length: (NSUInteger) length Case:(int) ARGB;
 @end
 
 
