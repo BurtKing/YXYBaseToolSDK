@@ -673,7 +673,7 @@
     }
     if ([str containsString:@"I"]||[str containsString:@"O"]||[str containsString:@"Q"])
     {
-        return NO;
+            return NO;
     }
     
     return YES;
