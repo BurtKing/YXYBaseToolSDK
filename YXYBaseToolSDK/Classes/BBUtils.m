@@ -666,16 +666,13 @@
     }
 }
 
-+(BOOL)judgeVIN:(NSString *)str
-{
++(BOOL)judgeVIN:(NSString *)str {
     if (!str || str.length != 17) {
         return NO;
     }
-    if ([str containsString:@"I"]||[str containsString:@"O"]||[str containsString:@"Q"])
-    {
-            return NO;
+    if ([str containsString:@"I"]||[str containsString:@"O"]||[str containsString:@"Q"]) {
+        return NO;
     }
-    
     return YES;
 }
 
